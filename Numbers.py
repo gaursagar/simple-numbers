@@ -10,3 +10,9 @@ class Numbers:
         for arg in args:
             sum += float(arg)
         return sum
+    
+    def multiply(self, *args):
+        product = 0
+        for arg in args:
+            product *= float(arg)
+        return product
